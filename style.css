@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+#a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover,#a6:hover,#a7:hover,#a8:hover{
+  color: yellow;
+  font-size: 14px;
+}
+
+#a9:hover,#a10:hover,#a11:hover,#a12:hover,#a13:hover,#a14:hover,#a15:hover,#a16:hover{
+  color: yellow;
+  font-size: 16px;
+}
 
 
 #menbers-a{
@@ -94,8 +103,7 @@ header{
 }
 
 #wanted{
-  background-color: pink
-  ;
+  background-color: pink;
 }
 
 
@@ -168,6 +176,10 @@ main{
   border-radius: 7px;
 }
 
+.menbers-button:hover{
+  background-color: orange;
+}
+
 
 /* teams */
 
@@ -224,6 +236,10 @@ main{
   border-radius: 7px;
 }
 
+.teams-buttton:hover{
+  background-color: orange;
+}
+
 .teams-word{
   height: 400px;
   /* background-color: red; */
@@ -264,6 +280,10 @@ main{
   font-size: 20px;
   font-weight: bold;
   border-radius: 7px;
+}
+
+.seeking-buttton:hover{
+  background-color: orange;
 }
 
 
@@ -310,13 +330,17 @@ main{
 
 }
 
+.recruiting-buttton:hover{
+  background-color: orange;
+}
+
 .air-air{
   display: flex;
   vertical-align: center;
 }
 
 
-/* sns-section */
+/* sns-section
 .sns-section{
   margin: 0;
   background-image: url(IMG_2499.jpg);
@@ -340,7 +364,7 @@ main{
   width: 900px;
   margin: 0 auto;
 }
-
+ */
 
 
 /* footer */
